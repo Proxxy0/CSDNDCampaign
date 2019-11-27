@@ -1,0 +1,253 @@
+PCGVERSION:2.0
+
+# System Information
+CAMPAIGN:5e - Unearthed Arcana - Barbarian and Monk|CAMPAIGN:5e - Xanathar's Guide To Everything|CAMPAIGN:5e - Monster Manual|CAMPAIGN:5e - Player's Handbook
+VERSION:6.08.00 RC7
+ROLLMETHOD:0|EXPRESSION:0
+PURCHASEPOINTS:N
+CHARACTERTYPE:PC
+PREVIEWSHEET:Standard.htm.ftl
+POOLPOINTS:0
+POOLPOINTSAVAIL:-1
+GAMEMODE:5e
+TABLABEL:0
+AUTOSPELLS:Y
+USEHIGHERKNOWN:N
+USEHIGHERPREPPED:N
+LOADCOMPANIONS:N
+USETEMPMODS:Y
+AUTOSORTGEAR:Y
+SKILLSOUTPUTORDER:0
+SKILLFILTER:2
+IGNORECOST:N
+ALLOWDEBT:N
+AUTORESIZEGEAR:Y
+
+# Character Bio
+CHARACTERNAME:Bumrat, eater of bunnies
+TABNAME:
+PLAYERNAME:
+HEIGHT:71
+WEIGHT:200
+AGE:24
+GENDER:Female
+HANDED:Right
+SKINCOLOR:Copper
+EYECOLOR:Teal
+HAIRCOLOR:Copper
+HAIRSTYLE:Trio of horns in middle, two main horns on the side
+LOCATION:
+CITY:
+BIRTHDAY:
+BIRTHPLACE:
+PERSONALITYTRAIT1:
+PERSONALITYTRAIT2:
+SPEECHPATTERN:
+PHOBIAS:
+INTERESTS:Hlal
+CATCHPHRASE: "Excuse me sir, do you have a moment to talk about our Lady and Savior Hlal"
+PORTRAIT:C&colon;\Users\tiafl\Desktop\507px-Zonaladin.jpg
+PORTRAITTHUMBNAILRECT:0,0,507,507
+
+# Character Attributes
+STAT:STR|SCORE:8
+STAT:DEX|SCORE:8
+STAT:CON|SCORE:12
+STAT:INT|SCORE:13
+STAT:WIS|SCORE:15
+STAT:CHA|SCORE:15
+ALIGN:CG
+RACE:Dragonborn
+
+# Character Class(es)
+CLASS:Warlock|LEVEL:4|SKILLPOOL:0|SPELLBASE:CHA|CANCASTPERDAY:0,0,2
+CLASSABILITIESLEVEL:Warlock=1|HITPOINTS:8|SKILLSGAINED:0|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Warlock=2|HITPOINTS:5|SKILLSGAINED:0|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Warlock=3|HITPOINTS:8|SKILLSGAINED:0|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Warlock=4|HITPOINTS:8|SKILLSGAINED:0|SKILLSREMAINING:0
+
+# Character Experience
+EXPERIENCE:2700
+EXPERIENCETABLE:Default
+
+# Character Templates
+TEMPLATESAPPLIED:[NAME:First Level|CHOSENTEMPLATE:[NAME:Warlock]]
+TEMPLATESAPPLIED:[NAME:Subrace ~ Copper]
+TEMPLATESAPPLIED:[NAME:Warlock]
+TEMPLATESAPPLIED:[NAME:Background Equipment ~ Acolyte]
+TEMPLATESAPPLIED:[NAME:Starting Equipment ~ Warlock|CHOSENTEMPLATE:[NAME:Dungeoneer's Pack]|CHOSENTEMPLATE:[NAME:Any Simple Weapon]|CHOSENTEMPLATE:[NAME:component pouch]|CHOSENTEMPLATE:[NAME:Leather Armor]]
+TEMPLATESAPPLIED:[NAME:Leather Armor]
+TEMPLATESAPPLIED:[NAME:Any Simple Weapon|CHOSENTEMPLATE:[NAME:Sickle]]
+TEMPLATESAPPLIED:[NAME:Sickle]
+TEMPLATESAPPLIED:[NAME:component pouch]
+TEMPLATESAPPLIED:[NAME:Dungeoneer's Pack]
+
+# Character Region
+REGION:None
+
+# Character Skills
+SKILL:Acrobatics|OUTPUTORDER:1|
+SKILL:Animal Handling|OUTPUTORDER:2|
+SKILL:Arcana|OUTPUTORDER:3|
+SKILL:Athletics|OUTPUTORDER:4|
+SKILL:Deception|OUTPUTORDER:5|
+SKILL:History|OUTPUTORDER:6|
+SKILL:Insight|OUTPUTORDER:7|
+SKILL:Intimidation|OUTPUTORDER:8|
+SKILL:Investigation|OUTPUTORDER:9|
+SKILL:Medicine|OUTPUTORDER:10|
+SKILL:Nature|OUTPUTORDER:11|
+SKILL:Perception|OUTPUTORDER:12|
+SKILL:Performance|OUTPUTORDER:13|
+SKILL:Persuasion|OUTPUTORDER:14|
+SKILL:Religion|OUTPUTORDER:15|
+SKILL:Sleight of Hand|OUTPUTORDER:16|
+SKILL:Stealth|OUTPUTORDER:17|
+SKILL:Survival|OUTPUTORDER:18|
+
+# Character Languages
+LANGUAGE:Common|LANGUAGE:Draconic|LANGUAGE:Gnomish|LANGUAGE:Goblin
+
+# Character Feats
+FEATPOOL:0.0
+
+# Character Abilities
+ABILITY:Acolyte Bond|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Acolyte Bond ~ 1|TYPE:SpecialQuality.Acolyte Bond.Bond|DESC:I would die to recover an ancient relic of my faith that was lost long ago.
+USERPOOL:Acolyte Bond|POOLPOINTS:0.0
+ABILITY:Acolyte Flaw|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Acolyte Flaw ~ 5|TYPE:SpecialQuality.Acolyte Flaw.Flaw|DESC:I am suspicious of strangers and expect the worst of them.
+USERPOOL:Acolyte Flaw|POOLPOINTS:0.0
+ABILITY:Acolyte Ideal|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Acolyte Ideal ~ 6|TYPE:SpecialQuality.Acolyte Ideal.Ideal|DESC:Aspiration. I seek to prove myself worthy of my god's favor by matching my actions against his or her teachings. (Any)
+USERPOOL:Acolyte Ideal|POOLPOINTS:0.0
+ABILITY:Acolyte Personality Trait|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Acolyte Personality Trait ~ 1|TYPE:SpecialQuality.Acolyte Personality Trait.Personality Trait|DESC:I idolize a particular hero of my faith, and constantly refer to that person's deeds and example.
+ABILITY:Acolyte Personality Trait|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Acolyte Personality Trait ~ 5|TYPE:SpecialQuality.Acolyte Personality Trait.Personality Trait|DESC:I quote (or misquote) sacred texts and proverbs in almost every situation.
+USERPOOL:Acolyte Personality Trait|POOLPOINTS:0.0
+ABILITY:Armor Class Method|TYPE:NORMAL|CATEGORY:Special Ability|KEY:AC Tracker ~ Mage Armor|TYPE:AC_Tracker.AC_Tracker_Choice.AC_Tracker_SelectionMade
+USERPOOL:Armor Class Method|POOLPOINTS:0.0
+ABILITY:Background|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Background ~ Acolyte|TYPE:Background.Background Selection.SpecialQuality|DESC:Equipment&colon; A holy symbol (a gift to you when you entered the priesthood), a prayer book or prayer wheel, 5 sticks of incense, vestments, a set of common clothes, and a belt pouch containing 15 gp|DESC:Gain Insight &amp;amp; Religion as class skills
+USERPOOL:Background|POOLPOINTS:0.0
+ABILITY:Character Advancement Selection|TYPE:NORMAL|CATEGORY:Internal|KEY:Add Feat|APPLIEDTO:|TYPE:Ability Score Increase
+USERPOOL:Character Advancement Selection|POOLPOINTS:0.0
+ABILITY:Dragonborn Ancestry|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Dragonborn Ancestry ~ Copper|TYPE:Dragonborn Ancestry|DESC:You have Copper Dragonborn Ancestry
+USERPOOL:Dragonborn Ancestry|POOLPOINTS:0.0
+ABILITY:Eldritch Invocation|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Eldritch Invocation ~ Beast Speech|TYPE:Eldritch Invocation.SpecialQuality.Class Feature|DESC:You can cast speak with animals at will, without expending a spell slot.
+ABILITY:Eldritch Invocation|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Eldritch Invocation ~ Eyes of the Rune Keeper|TYPE:Eldritch Invocation.SpecialQuality.Class Feature|DESC:You can read all writing.
+USERPOOL:Eldritch Invocation|POOLPOINTS:0.0
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Lucky|TYPE:Feat|DESC:You have inexplicable luck that seems to kick in at just the right moment. You have 3 luck points. Whenever you make an attack roll, an ability check, or a saving throw, you can spend one luck point to roll an additional d20. You can choose to spend one of your luck points after you roll the die, but before the outcome is determined. You choose which of the d20s is used for the attack roll, ability check, or saving throw. You can also spend one luck point when an attack roll is made against you. Roll a d20, and then choose whether the attack uses the attacker's roll or yours. If more than one creature spends a luck point to influence the outcome of a roll, the points cancel each other out; no additional dice are rolled. You regain your expended luck points when you finish a long rest.
+USERPOOL:FEAT|POOLPOINTS:0.0
+ABILITY:Language Selection|TYPE:NORMAL|CATEGORY:Language|KEY:Gnomish|TYPE:Language.Spoken.Dwarvish
+ABILITY:Language Selection|TYPE:NORMAL|CATEGORY:Language|KEY:Goblin|TYPE:Language.Spoken.Dwarvish
+USERPOOL:Language Selection|POOLPOINTS:0.0
+ABILITY:Otherworldly Patron|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Otherworldly Patron ~ The Hexblade|TYPE:Warlock Class Feature.SpecialQuality.Class Feature.Otherworldly Patron|DESC:You have made your pact with a mysterious entity from the Shadowfell-a force that manifests in sentient magic weapons carved from the stuff of shadow. The mighty sword Blackrazor is the most notable of these weapons, which have been spread across the multiverse over the ages. The shadowy force behind these weapons can offer power to warlocks who form pacts with it. Many hexblade warlocks create weapons that emulate those formed in the Shadowfell. Others forgo such arms, content to weave the dark magic of that plane into their spellcasting. Because the Raven Queen is known to have forged the first of these weapons, many sages speculate that she and the force are one and that the weapons, along with hexblade warlocks, are tools she uses to manipulate events on the Material Plane to her inscrutable ends.
+USERPOOL:Otherworldly Patron|POOLPOINTS:0.0
+ABILITY:Pact Boon|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Pact Boon ~ Pact of the Blade|TYPE:Warlock Class Feature.SpecialQuality.Class Feature.Pact Boon|DESC:You can use your action to create a pact weapon in your empty hand. You can choose the form that this melee weapon takes each time you create it (see chapter 5 for weapon options). You are proficient with it while you wield it. This weapon counts as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage. Your pact weapon disappears if it is more than 5 feet away from you for 1 minute or more. It also disappears if you use this feature again, if you dismiss the weapon (no action required), or if you die. You can transform one magic weapon into your pact weapon by performing a special ritual while you hold the weapon. You perform the ritual over the course of 1 hour, which can be done during a short rest. You can then dismiss the weapon, shunting it into an extradimensional space, and it appears whenever you create your pact weapon thereafter. You can't affect an artifact or a sentient weapon in this way. The weapon ceases being your pact weapon if you die, if you perform the 1-hour ritual on a different weapon, or if you use a 1-hour ritual to break your bond to it. The weapon appears at your feet if it is in the extradimensional space when the bond breaks.
+USERPOOL:Pact Boon|POOLPOINTS:0.0
+ABILITY:Starting Equipment|TYPE:NORMAL|CATEGORY:Internal|KEY:Starting Equipment|TYPE:Starting Equipment|DESC:Add this once the character for first level is finished. As the selections will be based upon the current Proficiencies. Also, this will only trigger for the initial first level character.
+USERPOOL:Starting Equipment|POOLPOINTS:0.0
+ABILITY:Warlock Cantrip|TYPE:NORMAL|CATEGORY:Internal|KEY:Warlock Cantrip ~ Eldritch Blast|TYPE:Warlock Cantrip
+ABILITY:Warlock Cantrip|TYPE:NORMAL|CATEGORY:Internal|KEY:Warlock Cantrip ~ Thunderclap|TYPE:Warlock Cantrip|DESC:You create a burst of thunderous sound that can be heard up to 100 feet away. Each creature within range, other than you, must succeed on a Constitution saving throw or take ld6 thunder damage. The spell's damage increases by ld6 when you reach 5th level (2d6), llth level (3d6), and 17th level (4d6).
+ABILITY:Warlock Cantrip|TYPE:NORMAL|CATEGORY:Internal|KEY:Warlock Cantrip ~ Toll the dead|TYPE:Warlock Cantrip|DESC:You point at one creature you can see within range, and the sound of a dolorous bell fills the air around it for a moment. The target must succeed on a Wisdom saving throw or take 1d8 necrotic damage. If the target is missing any of its hit points, it instead takes 1d12 necrotic damage. The spell's damage increases by one die when you reach 5th level (2d8 or 2d12), 11th level (3d8 or 3d12), and 17th level (4d8 or 4dl2).
+USERPOOL:Warlock Cantrip|POOLPOINTS:0.0
+ABILITY:Warlock Skill|TYPE:NORMAL|CATEGORY:Skill|KEY:Deception|TYPE:Skill Proficiency.Charisma
+ABILITY:Warlock Skill|TYPE:NORMAL|CATEGORY:Skill|KEY:Intimidation|TYPE:Skill Proficiency.Charisma
+USERPOOL:Warlock Skill|POOLPOINTS:0.0
+
+# Character Weapon proficiencies
+WEAPONPROF:[WEAPON:Battleaxe|WEAPON:Blowgun|WEAPON:Club|WEAPON:Crossbow (Hand)|WEAPON:Crossbow (Heavy)|WEAPON:Crossbow (Light)|WEAPON:Dagger|WEAPON:Dart|WEAPON:Flail|WEAPON:Glaive]
+WEAPONPROF:[WEAPON:Greataxe|WEAPON:Greatclub|WEAPON:Greatsword|WEAPON:Halberd|WEAPON:Handaxe|WEAPON:Javelin|WEAPON:Lance|WEAPON:Light Hammer|WEAPON:Longbow|WEAPON:Longsword]
+WEAPONPROF:[WEAPON:Mace|WEAPON:Maul|WEAPON:Morningstar|WEAPON:Net|WEAPON:Pike|WEAPON:Quarterstaff|WEAPON:Rapier|WEAPON:Scimitar|WEAPON:Shortbow|WEAPON:Shortsword]
+WEAPONPROF:[WEAPON:Sickle|WEAPON:Sling|WEAPON:Spear|WEAPON:Trident|WEAPON:Unarmed Strike|WEAPON:War Pick|WEAPON:Warhammer|WEAPON:Whip]
+
+# Character Equipment
+MONEY:89.50
+EQUIPNAME:Backpack|OUTPUTORDER:0|COST:2|WT:5.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Backpack|DATA:NAME=Backpack]
+EQUIPNAME:Belt Pouch|OUTPUTORDER:0|COST:0.5|WT:1.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Belt Pouch|DATA:NAME=Belt Pouch]
+EQUIPNAME:Clothes, Common|OUTPUTORDER:0|COST:0.5|WT:3.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Clothes (Common)|DATA:NAME=Clothes, Common$KEY=Clothes (Common)]
+EQUIPNAME:Coin (Gold)|OUTPUTORDER:0|COST:1|WT:0.02|QUANTITY:15.0|NOTE:|CUSTOMIZATION:[BASEITEM:Coin (Gold)|DATA:NAME=Coin (Gold)]
+EQUIPNAME:Component pouch|OUTPUTORDER:0|COST:25|WT:2.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Component pouch|DATA:NAME=Component pouch]
+EQUIPNAME:Crowbar|OUTPUTORDER:0|COST:2|WT:5.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Crowbar|DATA:NAME=Crowbar]
+EQUIPNAME:Dagger|OUTPUTORDER:0|COST:2|WT:1.0|QUANTITY:2.0|NOTE:|CUSTOMIZATION:[BASEITEM:Dagger|DATA:NAME=Dagger]
+EQUIPNAME:Hammer|OUTPUTORDER:0|COST:1|WT:3.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Hammer|DATA:NAME=Hammer]
+EQUIPNAME:Holy Symbol (Reliquary)|OUTPUTORDER:0|COST:5|WT:2.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Holy Symbol (Reliquary)|DATA:NAME=Holy Symbol (Reliquary)]
+EQUIPNAME:Leather|OUTPUTORDER:0|COST:10|WT:10.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Leather|DATA:NAME=Leather]
+EQUIPNAME:Piton|OUTPUTORDER:0|COST:0.05|WT:0.25|QUANTITY:10.0|NOTE:|CUSTOMIZATION:[BASEITEM:Piton|DATA:NAME=Piton]
+EQUIPNAME:Prayer Book|OUTPUTORDER:0|COST:0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Prayer Book|DATA:NAME=Prayer Book]
+EQUIPNAME:Rations (1 day)|OUTPUTORDER:0|COST:0.5|WT:2.0|QUANTITY:11.0|NOTE:|CUSTOMIZATION:[BASEITEM:Rations (1 day)|DATA:NAME=Rations (1 day)]
+EQUIPNAME:Rope, hempen (50 feet)|OUTPUTORDER:0|COST:1|WT:10.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Rope (Hempen/50)|DATA:NAME=Rope, hempen (50 feet)$KEY=Rope (Hempen/50)]
+EQUIPNAME:Sickle|OUTPUTORDER:0|COST:1|WT:2.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Sickle|DATA:NAME=Sickle]
+EQUIPNAME:Stick of Incense|OUTPUTORDER:0|COST:0|WT:0.0|QUANTITY:5.0|NOTE:|CUSTOMIZATION:[BASEITEM:Stick of Incense|DATA:NAME=Stick of Incense]
+EQUIPNAME:Tinderbox|OUTPUTORDER:0|COST:0.5|WT:1.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Tinderbox|DATA:NAME=Tinderbox]
+EQUIPNAME:Torch|OUTPUTORDER:0|COST:0.01|WT:1.0|QUANTITY:10.0|NOTE:|CUSTOMIZATION:[BASEITEM:Torch|DATA:NAME=Torch]
+EQUIPNAME:Vestments|OUTPUTORDER:0|COST:0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Vestments|DATA:NAME=Vestments]
+EQUIPNAME:Waterskin|OUTPUTORDER:0|COST:0.2|WT:5.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Waterskin|DATA:NAME=Waterskin]
+EQUIPSET:Default Set|ID:0.1|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.1|VALUE:Prayer Book|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.10|VALUE:Sickle|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.11|VALUE:Component pouch|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.12|VALUE:Backpack|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.13|VALUE:Crowbar|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.14|VALUE:Hammer|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.15|VALUE:Piton|QUANTITY:10.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.16|VALUE:Torch|QUANTITY:10.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.17|VALUE:Tinderbox|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.18|VALUE:Rations (1 day)|QUANTITY:10.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.19|VALUE:Waterskin|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.2|VALUE:Stick of Incense|QUANTITY:5.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.20|VALUE:Rope, hempen (50 feet)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.3|VALUE:Vestments|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.4|VALUE:Clothes, Common|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.5|VALUE:Belt Pouch|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.6|VALUE:Coin (Gold)|QUANTITY:15.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.7|VALUE:Holy Symbol (Reliquary)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.8|VALUE:Dagger|QUANTITY:2.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.9|VALUE:Leather|QUANTITY:1.0|USETEMPMODS:Y
+CALCEQUIPSET:0.1
+
+# Temporary Bonuses
+
+# EquipSet Temp Bonuses
+
+# Character Deity/Domain
+DEITY:Anubis|DEITYDOMAINS:[DOMAIN:FORGE DOMAIN|DOMAIN:GRAVE DOMAIN|DOMAIN:Knowledge Domain|DOMAIN:Life Domain|DOMAIN:Light Domain|DOMAIN:Nature Domain|DOMAIN:Tempest Domain|DOMAIN:Trickery Domain|DOMAIN:War Domain]|ALIGNALLOW:|DESC:Death Black jackal|DEITYFAVWEAP:[]|DEITYALIGN:LN
+
+# Character Spells Information
+SPELLBOOK:Warlock Cantrip|TYPE:4
+SPELLBOOK:Warlock|TYPE:4
+SPELLNAME:Cloud of Daggers|TIMES:1|CLASS:Warlock|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Warlock]
+SPELLNAME:Eldritch Blast|TIMES:1|CLASS:Warlock|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Warlock]
+SPELLNAME:Expeditious Retreat|TIMES:1|CLASS:Warlock|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Warlock]
+SPELLNAME:Hellish Rebuke|TIMES:1|CLASS:Warlock|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Warlock]
+SPELLNAME:Mind Spike|TIMES:1|CLASS:Warlock|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Warlock]
+SPELLNAME:Suggestion|TIMES:1|CLASS:Warlock|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Warlock]
+SPELLNAME:Thunderclap|TIMES:1|CLASS:Warlock|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Warlock]
+SPELLNAME:Toll The Dead|TIMES:1|CLASS:Warlock|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Warlock]
+
+# Character Description/Bio/History
+CHARACTERBIO:Born of a copper dragon mother and a human father. After being birthed as an egg into the nest, a Molothrus Kenku replaced her egg with its (pea-sized in comparison) own when her mother went to go get her cheeks clapped by her human mans. Left on the floor to suffer an unknown demise, her egg was found by the sheeny-shiny loving Krurt, who unknowingly took her in. After keeping the egg for some time, he noticed cracks and fissures appearing in the "stone", something that had never happened before (how does someone fuck up and break a rock??), even for his clumsy self. After it hatched, an unbreakable gnaughter-gnaddy relationship was formed. Krurt wanted to raise the hatchling as best as he could. Noticing the naming pattern of other dragons, he dubbed her "Bumrat, Eater of Bunnies" after her notable love of devouring bunnies. &nl;&nl;Ever since being a cognitive being inside her egg, she had visions of a great dragon goddess lying in a tomb, engulfed in a white flame. As she grew older and learned to read, she devoured books of all sorts to explain this phenomenon. After much research, she learned about the great deity Hlal, dragon goddess of humor, inventiveness, and pleasure - but tragically, a  long dead deity. She swore to devote her life to bringing Hlal back to the world via the power of the deity Anubis. &nl;&nl;&nl;Extra phrases&colon;&nl;"Got Hlal?"&nl;&nl;"Do you even Hlal?"&nl;&nl;"Y'all Hlal?"
+CHARACTERDESC:
+CHARACTERCOMP:
+CHARACTERASSET:
+CHARACTERMAGIC:
+CHARACTERDMNOTES:
+
+# Kits
+KIT:Acolyte Background
+KIT:Holy Symbol (Reliquary)
+KIT:Starting gold ~ Warlock
+KIT:two daggers
+KIT:Leather armor
+KIT:Sickle
+KIT:component pouch
+KIT:Dungeoneer's Pack
+
+# Character Master/Follower
+
+# Character Notes Tab
+
+# Age Set Selections
+AGESET:1:0:0:0:0:0:0:0:0:0
+
+# Campaign History
+
+# Suppressed Biography Fields
+SUPPRESSBIOFIELDS:PERSONALITY_TRAIT_1
+
