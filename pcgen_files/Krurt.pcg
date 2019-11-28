@@ -46,7 +46,7 @@ SPEECHPATTERN:Broken Common/Broken Gnomish (Prostitute-ese)
 PHOBIAS:Being Alone
 INTERESTS:All things Arcane
 CATCHPHRASE:
-PORTRAIT:C&colon;\Users\worley\Pictures\Drawings\Gnaddy3.png
+PORTRAIT:C&colon;\Users\worley\AppData\Local\PCGen\6.08.00RC7\6.08.00RC7\characters\CS Campaign\images\Gnaddy3.png
 PORTRAITTHUMBNAILRECT:0,0,553,553
 
 # Character Attributes
@@ -75,7 +75,7 @@ TEMPLATESAPPLIED:[NAME:First Level|CHOSENTEMPLATE:[NAME:Wizard]]
 TEMPLATESAPPLIED:[NAME:Subrace ~ Forest]
 TEMPLATESAPPLIED:[NAME:Wizard]
 TEMPLATESAPPLIED:[NAME:Background Equipment ~ Outlander]
-TEMPLATESAPPLIED:[NAME:Starting Equipment ~ Wizard|CHOSENTEMPLATE:[NAME:Scholar's Pack]|CHOSENTEMPLATE:[NAME:Quarterstaff]|CHOSENTEMPLATE:[NAME:component pouch]]
+TEMPLATESAPPLIED:[NAME:Starting Equipment ~ Wizard|CHOSENTEMPLATE:[NAME:Quarterstaff]|CHOSENTEMPLATE:[NAME:component pouch]|CHOSENTEMPLATE:[NAME:Scholar's Pack]]
 TEMPLATESAPPLIED:[NAME:Quarterstaff]
 TEMPLATESAPPLIED:[NAME:component pouch]
 TEMPLATESAPPLIED:[NAME:Scholar's Pack]
@@ -197,8 +197,8 @@ CALCEQUIPSET:0.1
 DEITY:Celtic ~ Math Mathonwy|DEITYDOMAINS:[DOMAIN:FORGE DOMAIN|DOMAIN:GRAVE DOMAIN|DOMAIN:Knowledge Domain|DOMAIN:Life Domain|DOMAIN:Light Domain|DOMAIN:Nature Domain|DOMAIN:Tempest Domain|DOMAIN:Trickery Domain|DOMAIN:War Domain]|ALIGNALLOW:|DESC:Knowledge Staff|DEITYFAVWEAP:[]|DEITYALIGN:NE
 
 # Character Spells Information
-SPELLBOOK:Wizard Cantrip|TYPE:4
 SPELLBOOK:Gnome|TYPE:4
+SPELLBOOK:Wizard Cantrip|TYPE:4
 SPELLBOOK:Spellbook|TYPE:3
 SPELLBOOK:Prepared Spells|TYPE:2
 SPELLNAME:Catapult|TIMES:1|CLASS:Wizard|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Wizard]

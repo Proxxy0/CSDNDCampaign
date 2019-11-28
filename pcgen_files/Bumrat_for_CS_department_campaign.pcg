@@ -46,8 +46,8 @@ SPEECHPATTERN:
 PHOBIAS:
 INTERESTS:Hlal
 CATCHPHRASE: "Excuse me sir, do you have a moment to talk about our Lady and Savior Hlal"
-PORTRAIT:C&colon;\Users\tiafl\Desktop\507px-Zonaladin.jpg
-PORTRAITTHUMBNAILRECT:0,0,507,507
+PORTRAIT:C&colon;\Users\worley\AppData\Local\PCGen\6.08.00RC7\6.08.00RC7\characters\CS Campaign\images\250px-Zonaladin.png
+PORTRAITTHUMBNAILRECT:0,9,250,250
 
 # Character Attributes
 STAT:STR|SCORE:8
@@ -75,7 +75,7 @@ TEMPLATESAPPLIED:[NAME:First Level|CHOSENTEMPLATE:[NAME:Warlock]]
 TEMPLATESAPPLIED:[NAME:Subrace ~ Copper]
 TEMPLATESAPPLIED:[NAME:Warlock]
 TEMPLATESAPPLIED:[NAME:Background Equipment ~ Acolyte]
-TEMPLATESAPPLIED:[NAME:Starting Equipment ~ Warlock|CHOSENTEMPLATE:[NAME:Leather Armor]|CHOSENTEMPLATE:[NAME:Any Simple Weapon]|CHOSENTEMPLATE:[NAME:component pouch]|CHOSENTEMPLATE:[NAME:Dungeoneer's Pack]]
+TEMPLATESAPPLIED:[NAME:Starting Equipment ~ Warlock|CHOSENTEMPLATE:[NAME:Any Simple Weapon]|CHOSENTEMPLATE:[NAME:Dungeoneer's Pack]|CHOSENTEMPLATE:[NAME:Leather Armor]|CHOSENTEMPLATE:[NAME:component pouch]]
 TEMPLATESAPPLIED:[NAME:Leather Armor]
 TEMPLATESAPPLIED:[NAME:Any Simple Weapon|CHOSENTEMPLATE:[NAME:Sickle]]
 TEMPLATESAPPLIED:[NAME:Sickle]

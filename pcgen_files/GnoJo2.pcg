@@ -46,8 +46,8 @@ SPEECHPATTERN:
 PHOBIAS:
 INTERESTS:
 CATCHPHRASE:Watashi, anata wa segatakai
-PORTRAIT:C&colon;\Users\worley\Desktop\GnoJO.png
-PORTRAITTHUMBNAILRECT:0,0,100,100
+PORTRAIT:C&colon;\Users\worley\AppData\Local\PCGen\6.08.00RC7\6.08.00RC7\characters\CS Campaign\images\gnojo2.png
+PORTRAITTHUMBNAILRECT:0,0,634,634
 
 # Character Attributes
 STAT:STR|SCORE:10
@@ -74,7 +74,7 @@ TEMPLATESAPPLIED:[NAME:First Level|CHOSENTEMPLATE:[NAME:Monk]]
 TEMPLATESAPPLIED:[NAME:Subrace ~ Rock]
 TEMPLATESAPPLIED:[NAME:Monk]
 TEMPLATESAPPLIED:[NAME:Background Equipment ~ Soldier]
-TEMPLATESAPPLIED:[NAME:Starting Equipment ~ Monk|CHOSENTEMPLATE:[NAME:Explorer's Pack]|CHOSENTEMPLATE:[NAME:Any Simple Weapon]]
+TEMPLATESAPPLIED:[NAME:Starting Equipment ~ Monk|CHOSENTEMPLATE:[NAME:Any Simple Weapon]|CHOSENTEMPLATE:[NAME:Explorer's Pack]]
 TEMPLATESAPPLIED:[NAME:Any Simple Weapon|CHOSENTEMPLATE:[NAME:Crossbow (Light)]]
 TEMPLATESAPPLIED:[NAME:Crossbow (Light)]
 TEMPLATESAPPLIED:[NAME:Explorer's Pack]
