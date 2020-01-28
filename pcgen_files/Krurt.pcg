@@ -1,7 +1,7 @@
 PCGVERSION:2.0
 
 # System Information
-CAMPAIGN:5e - Unearthed Arcana - Barbarian and Monk|CAMPAIGN:5e - Xanathar's Guide To Everything|CAMPAIGN:5e - Monster Manual|CAMPAIGN:5e - Player's Handbook
+CAMPAIGN:5e - Unearthed Arcana - Barbarian and Monk|CAMPAIGN:5e - Homebrew Support|CAMPAIGN:5e - Xanathar's Guide To Everything|CAMPAIGN:5e - Monster Manual|CAMPAIGN:5e - Player's Handbook
 VERSION:6.08.00 RC7
 ROLLMETHOD:0|EXPRESSION:0
 PURCHASEPOINTS:N
@@ -21,7 +21,7 @@ SKILLSOUTPUTORDER:0
 SKILLFILTER:2
 IGNORECOST:N
 ALLOWDEBT:N
-AUTORESIZEGEAR:Y
+AUTORESIZEGEAR:N
 
 # Character Bio
 CHARACTERNAME:Gnaddy Krurt
@@ -40,7 +40,7 @@ LOCATION:
 CITY:
 BIRTHDAY:December 6
 BIRTHPLACE:
-PERSONALITYTRAIT1:Determined
+PERSONALITYTRAIT1:Determined,
 PERSONALITYTRAIT2:Lucky
 SPEECHPATTERN:Broken Common/Broken Gnomish (Prostitute-ese)
 PHOBIAS:Being Alone
@@ -60,14 +60,15 @@ ALIGN:CN
 RACE:Gnome
 
 # Character Class(es)
-CLASS:Wizard|LEVEL:4|SKILLPOOL:0
+CLASS:Wizard|LEVEL:5|SKILLPOOL:0
 CLASSABILITIESLEVEL:Wizard=1|HITPOINTS:6|SKILLSGAINED:0|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Wizard=2|HITPOINTS:6|SKILLSGAINED:0|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Wizard=3|HITPOINTS:6|SKILLSGAINED:0|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Wizard=4|HITPOINTS:6|SKILLSGAINED:0|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Wizard=5|HITPOINTS:6|SKILLSGAINED:0|SKILLSREMAINING:0
 
 # Character Experience
-EXPERIENCE:2700
+EXPERIENCE:6500
 EXPERIENCETABLE:Default
 
 # Character Templates
@@ -75,7 +76,7 @@ TEMPLATESAPPLIED:[NAME:First Level|CHOSENTEMPLATE:[NAME:Wizard]]
 TEMPLATESAPPLIED:[NAME:Subrace ~ Forest]
 TEMPLATESAPPLIED:[NAME:Wizard]
 TEMPLATESAPPLIED:[NAME:Background Equipment ~ Outlander]
-TEMPLATESAPPLIED:[NAME:Starting Equipment ~ Wizard|CHOSENTEMPLATE:[NAME:Scholar's Pack]|CHOSENTEMPLATE:[NAME:component pouch]|CHOSENTEMPLATE:[NAME:Quarterstaff]]
+TEMPLATESAPPLIED:[NAME:Starting Equipment ~ Wizard|CHOSENTEMPLATE:[NAME:Quarterstaff]|CHOSENTEMPLATE:[NAME:component pouch]|CHOSENTEMPLATE:[NAME:Scholar's Pack]]
 TEMPLATESAPPLIED:[NAME:Quarterstaff]
 TEMPLATESAPPLIED:[NAME:component pouch]
 TEMPLATESAPPLIED:[NAME:Scholar's Pack]
@@ -136,6 +137,10 @@ ABILITY:Outlander Flaw|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Outlander Flaw ~
 USERPOOL:Outlander Flaw|POOLPOINTS:0.0
 ABILITY:Outlander Origin|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Outlander Origin ~ 5|TYPE:SpecialQuality.Outlander Origin|DESC:Exile or outcast
 USERPOOL:Outlander Origin|POOLPOINTS:0.0
+ABILITY:Rules|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Add additional Skill Proficiency|APPLIEDTO:|TYPE:Rules|DESC:Adds additional Skill Proficiency
+USERPOOL:Rules|POOLPOINTS:0.0
+ABILITY:Skill Proficiency|TYPE:NORMAL|CATEGORY:Skill|KEY:Persuasion|TYPE:Skill Proficiency.Charisma
+USERPOOL:Skill Proficiency|POOLPOINTS:0.0
 ABILITY:Starting Equipment|TYPE:NORMAL|CATEGORY:Internal|KEY:Starting Equipment|TYPE:Starting Equipment|DESC:Add this once the character for first level is finished. As the selections will be based upon the current Proficiencies. Also, this will only trigger for the initial first level character.
 USERPOOL:Starting Equipment|POOLPOINTS:0.0
 ABILITY:Wizard Cantrip|TYPE:NORMAL|CATEGORY:Internal|KEY:Wizard Cantrip ~ Fire Bolt|TYPE:Wizard Cantrip|DESC:You hurl a mote of fire at a creature or object within range. Make a ranged spell attack against the target. On a hit, the target takes 1d10 fire damage. A flammable object hit by this spell ignites if it isn't being worn or carried. This spell's damage increases by 1d10 when you reach 5th level (2d10), 11th level (3d10), and 17th level (4d10).
@@ -151,26 +156,26 @@ USERPOOL:Wizard Skill|POOLPOINTS:0.0
 WEAPONPROF:[WEAPON:Crossbow (Light)|WEAPON:Dagger|WEAPON:Dart|WEAPON:Quarterstaff|WEAPON:Sling]
 
 # Character Equipment
-MONEY:-205.00
+MONEY:0
 EQUIPNAME:Backpack|OUTPUTORDER:8|COST:2|WT:5.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Backpack|DATA:NAME=Backpack]
 EQUIPNAME:Belt Pouch|OUTPUTORDER:2|COST:0.5|WT:1.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Belt Pouch|DATA:NAME=Belt Pouch]
 EQUIPNAME:book of lore|OUTPUTORDER:9|COST:0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:book of lore|DATA:NAME=book of lore]
 EQUIPNAME:Clothes, Traveler's|OUTPUTORDER:1|COST:2|WT:4.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Clothes (Traveler's)|DATA:NAME=Clothes, Traveler's$KEY=Clothes (Traveler's)]
 EQUIPNAME:Coin (Gold)|OUTPUTORDER:5|COST:1|WT:0.02|QUANTITY:51.0|NOTE:
 EQUIPNAME:Component pouch|OUTPUTORDER:4|COST:25|WT:2.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Component pouch|DATA:NAME=Component pouch]
+EQUIPNAME:Dagger|OUTPUTORDER:20|COST:2|WT:1.0|QUANTITY:1.0|NOTE:
 EQUIPNAME:Dart (Small)|OUTPUTORDER:7|COST:0.05|WT:0.25|QUANTITY:2.0|NOTE:|CUSTOMIZATION:[BASEITEM:Dart|DATA:NAME=Dart (Small)$KEY=AUTOSIZESDart$SIZE=S]
-EQUIPNAME:Deck of Many Things (Wondrous item)|OUTPUTORDER:18|COST:5.0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Deck of marked cards|DATA:NAME=Deck of Many Things (Wondrous item)$EQMOD=ADDTYPE&pipe;Wondrous item$SPROP=(Deck of marked cards (Wondrous item))]
 EQUIPNAME:Hunting trap|OUTPUTORDER:12|COST:5|WT:25.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Hunting trap|DATA:NAME=Hunting trap]
 EQUIPNAME:Ink (1 ounce bottle)|OUTPUTORDER:10|COST:10|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Ink (1 ounce bottle)|DATA:NAME=Ink (1 ounce bottle)]
 EQUIPNAME:Ink pen|OUTPUTORDER:11|COST:0.02|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Ink pen|DATA:NAME=Ink pen]
 EQUIPNAME:little bag of sand|OUTPUTORDER:3|COST:0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:little bag of sand|DATA:NAME=little bag of sand]
-EQUIPNAME:Parchment (one sheet)|OUTPUTORDER:14|COST:0.1|WT:0.0|QUANTITY:10.0|NOTE:|CUSTOMIZATION:[BASEITEM:Parchment (one sheet)|DATA:NAME=Parchment (one sheet)]
-EQUIPNAME:Quarterstaff|OUTPUTORDER:13|COST:0.2|WT:4.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Quarterstaff|DATA:NAME=Quarterstaff$EQMOD=VERSATILE_D8]
+EQUIPNAME:Parchment (one sheet)|OUTPUTORDER:13|COST:0.1|WT:0.0|QUANTITY:10.0|NOTE:|CUSTOMIZATION:[BASEITEM:Parchment (one sheet)|DATA:NAME=Parchment (one sheet)]
+EQUIPNAME:Quarterstaff (Small)|OUTPUTORDER:15|COST:0.2|WT:4.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Quarterstaff|DATA:NAME=Quarterstaff (Small)$KEY=AUTOSIZESQuarterstaff$SIZE=S$EQMOD=VERSATILE_D8]
 EQUIPNAME:Rations (1 day)|OUTPUTORDER:6|COST:0.5|WT:2.0|QUANTITY:5.0|NOTE:
 EQUIPNAME:Reverse Breastplate|OUTPUTORDER:16|COST:0.0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:CLOAK OF BILLOWING|DATA:NAME=Reverse Breastplate$EQMOD=ADDTYPE&pipe;Magic$SPROP=While wearing this cloak, you gain +2 AC. Has on its back, a female breastplate.]
-EQUIPNAME:Spellbook|OUTPUTORDER:19|COST:50|WT:3.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Spellbook|DATA:NAME=Spellbook]
-EQUIPNAME:Staff|OUTPUTORDER:17|COST:5|WT:4.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Staff|DATA:NAME=Staff]
-EQUIPNAME:Vial of Robitussin|OUTPUTORDER:15|COST:3|WT:0.5|QUANTITY:2.0|NOTE:|CUSTOMIZATION:[BASEITEM:Vial|DATA:NAME=Vial of Robitussin$EQMOD=_WEIGHTADD&pipe;0,5$SPROP=(Vial)$COSTMOD=2]
+EQUIPNAME:Spellbook|OUTPUTORDER:21|COST:50|WT:3.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Spellbook|DATA:NAME=Spellbook]
+EQUIPNAME:Staff|OUTPUTORDER:18|COST:5|WT:4.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Staff|DATA:NAME=Staff]
+EQUIPNAME:Vial of Robitussin|OUTPUTORDER:14|COST:3|WT:0.5|QUANTITY:2.0|NOTE:|CUSTOMIZATION:[BASEITEM:Vial|DATA:NAME=Vial of Robitussin$EQMOD=_WEIGHTADD&pipe;0,5$SPROP=(Vial)$COSTMOD=2]
 EQUIPSET:Default Set|ID:0.1|USETEMPMODS:Y
 EQUIPSET:Carried|ID:0.1.1|VALUE:Staff|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Clothing|ID:0.1.18|VALUE:Clothes, Traveler's|QUANTITY:1.0|USETEMPMODS:Y
@@ -179,17 +184,17 @@ EQUIPSET:Belt Pouch|ID:0.1.19.01|VALUE:little bag of sand|QUANTITY:1.0|USETEMPMO
 EQUIPSET:Belt Pouch|ID:0.1.19.04|VALUE:Component pouch|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Belt Pouch|ID:0.1.19.05|VALUE:Coin (Gold)|QUANTITY:51.0|USETEMPMODS:Y
 EQUIPSET:Belt Pouch|ID:0.1.19.07|VALUE:Rations (1 day)|QUANTITY:5.0|USETEMPMODS:Y
-EQUIPSET:Belt Pouch|ID:0.1.19.22|VALUE:Deck of Many Things (Wondrous item)|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Belt Pouch|ID:0.1.19.8|VALUE:Dart (Small)|QUANTITY:2.0|USETEMPMODS:Y
 EQUIPSET:Equipped|ID:0.1.20|VALUE:Backpack|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Backpack|ID:0.1.20.01|VALUE:book of lore|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Backpack|ID:0.1.20.02|VALUE:Ink (1 ounce bottle)|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Backpack|ID:0.1.20.03|VALUE:Ink pen|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Backpack|ID:0.1.20.04|VALUE:Hunting trap|QUANTITY:1.0|USETEMPMODS:Y
-EQUIPSET:Backpack|ID:0.1.20.06|VALUE:Quarterstaff|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Backpack|ID:0.1.20.07|VALUE:Parchment (one sheet)|QUANTITY:10.0|USETEMPMODS:Y
 EQUIPSET:Backpack|ID:0.1.20.08|VALUE:Vial of Robitussin|QUANTITY:2.0|USETEMPMODS:Y
+EQUIPSET:Backpack|ID:0.1.20.09|VALUE:Quarterstaff (Small)|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Equipped|ID:0.1.21|VALUE:Reverse Breastplate|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.23|VALUE:Dagger|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Carried|ID:0.1.7|VALUE:Spellbook|QUANTITY:1.0|USETEMPMODS:Y
 CALCEQUIPSET:0.1
 
@@ -201,38 +206,60 @@ CALCEQUIPSET:0.1
 DEITY:Celtic ~ Math Mathonwy|DEITYDOMAINS:[DOMAIN:FORGE DOMAIN|DOMAIN:GRAVE DOMAIN|DOMAIN:Knowledge Domain|DOMAIN:Life Domain|DOMAIN:Light Domain|DOMAIN:Nature Domain|DOMAIN:Tempest Domain|DOMAIN:Trickery Domain|DOMAIN:War Domain]|ALIGNALLOW:|DESC:Knowledge Staff|DEITYFAVWEAP:[]|DEITYALIGN:NE
 
 # Character Spells Information
-SPELLBOOK:Wizard Cantrip|TYPE:4
 SPELLBOOK:Gnome|TYPE:4
-SPELLBOOK:Spellbook|TYPE:3
+SPELLBOOK:Wizard Cantrip|TYPE:4
+SPELLBOOK:Spellbook|TYPE:3|AUTOADDKNOWN:Y
 SPELLBOOK:Prepared Spells|TYPE:2
 SPELLNAME:Catapult|TIMES:1|CLASS:Wizard|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Wizard]
 SPELLNAME:Catapult|TIMES:1|CLASS:Wizard|BOOK:Prepared Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Catapult|TIMES:1|CLASS:Wizard|BOOK:Spellbook|SPELLLEVEL:1|SPELLNUMPAGES:1|SOURCE:[TYPE:CLASS|NAME:Wizard]
 SPELLNAME:Dragon's Breath|TIMES:1|CLASS:Wizard|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Wizard]
 SPELLNAME:Dragon's Breath|TIMES:1|CLASS:Wizard|BOOK:Prepared Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Dragon's Breath|TIMES:1|CLASS:Wizard|BOOK:Spellbook|SPELLLEVEL:2|SPELLNUMPAGES:2|SOURCE:[TYPE:CLASS|NAME:Wizard]
 SPELLNAME:Enlarge/Reduce|TIMES:1|CLASS:Wizard|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Wizard]
-SPELLNAME:Enlarge/Reduce|TIMES:1|CLASS:Wizard|BOOK:Prepared Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Enlarge/Reduce|TIMES:1|CLASS:Wizard|BOOK:Spellbook|SPELLLEVEL:2|SPELLNUMPAGES:2|SOURCE:[TYPE:CLASS|NAME:Wizard]
 SPELLNAME:Feather Fall|TIMES:1|CLASS:Wizard|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Wizard]
 SPELLNAME:Feather Fall|TIMES:1|CLASS:Wizard|BOOK:Prepared Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Feather Fall|TIMES:1|CLASS:Wizard|BOOK:Spellbook|SPELLLEVEL:1|SPELLNUMPAGES:1|SOURCE:[TYPE:CLASS|NAME:Wizard]
 SPELLNAME:Find Familiar|TIMES:1|CLASS:Wizard|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Find Familiar|TIMES:1|CLASS:Wizard|BOOK:Spellbook|SPELLLEVEL:1|SPELLNUMPAGES:1|SOURCE:[TYPE:CLASS|NAME:Wizard]
 SPELLNAME:Fire Bolt|TIMES:1|CLASS:Wizard|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Fire Bolt|TIMES:1|CLASS:Wizard|BOOK:Spellbook|SPELLLEVEL:0|SPELLNUMPAGES:1|SOURCE:[TYPE:CLASS|NAME:Wizard]
 SPELLNAME:Ice Knife|TIMES:1|CLASS:Wizard|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Wizard]
 SPELLNAME:Ice Knife|TIMES:1|CLASS:Wizard|BOOK:Prepared Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Ice Knife|TIMES:1|CLASS:Wizard|BOOK:Spellbook|SPELLLEVEL:1|SPELLNUMPAGES:1|SOURCE:[TYPE:CLASS|NAME:Wizard]
 SPELLNAME:Identify|TIMES:1|CLASS:Wizard|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Identify|TIMES:1|CLASS:Wizard|BOOK:Spellbook|SPELLLEVEL:1|SPELLNUMPAGES:1|SOURCE:[TYPE:CLASS|NAME:Wizard]
 SPELLNAME:Knock|TIMES:1|CLASS:Wizard|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Knock|TIMES:1|CLASS:Wizard|BOOK:Spellbook|SPELLLEVEL:2|SPELLNUMPAGES:2|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Life Transference|TIMES:1|CLASS:Wizard|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Life Transference|TIMES:1|CLASS:Wizard|BOOK:Spellbook|SPELLLEVEL:3|SPELLNUMPAGES:3|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Life Transference|TIMES:1|CLASS:Wizard|BOOK:Prepared Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Wizard]
 SPELLNAME:Mage Hand|TIMES:1|CLASS:Wizard|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Mage Hand|TIMES:1|CLASS:Wizard|BOOK:Spellbook|SPELLLEVEL:0|SPELLNUMPAGES:1|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Magic Circle|TIMES:1|CLASS:Wizard|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Magic Circle|TIMES:1|CLASS:Wizard|BOOK:Spellbook|SPELLLEVEL:3|SPELLNUMPAGES:3|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Magic Circle|TIMES:1|CLASS:Wizard|BOOK:Prepared Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Wizard]
 SPELLNAME:Maximilian's Earthen Grasp|TIMES:1|CLASS:Wizard|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Maximilian's Earthen Grasp|TIMES:1|CLASS:Wizard|BOOK:Spellbook|SPELLLEVEL:2|SPELLNUMPAGES:2|SOURCE:[TYPE:CLASS|NAME:Wizard]
 SPELLNAME:Mending|TIMES:1|CLASS:Wizard|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Mending|TIMES:1|CLASS:Wizard|BOOK:Spellbook|SPELLLEVEL:0|SPELLNUMPAGES:1|SOURCE:[TYPE:CLASS|NAME:Wizard]
 SPELLNAME:Misty Step|TIMES:1|CLASS:Wizard|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Wizard]
 SPELLNAME:Misty Step|TIMES:1|CLASS:Wizard|BOOK:Prepared Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Misty Step|TIMES:1|CLASS:Wizard|BOOK:Spellbook|SPELLLEVEL:2|SPELLNUMPAGES:2|SOURCE:[TYPE:CLASS|NAME:Wizard]
 SPELLNAME:Prestidigitation|TIMES:1|CLASS:Wizard|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Prestidigitation|TIMES:1|CLASS:Wizard|BOOK:Spellbook|SPELLLEVEL:0|SPELLNUMPAGES:1|SOURCE:[TYPE:CLASS|NAME:Wizard]
 SPELLNAME:Spider Climb|TIMES:1|CLASS:Wizard|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Spider Climb|TIMES:1|CLASS:Wizard|BOOK:Spellbook|SPELLLEVEL:2|SPELLNUMPAGES:2|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Spider Climb|TIMES:1|CLASS:Wizard|BOOK:Prepared Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Wizard]
 SPELLNAME:Thunderwave|TIMES:1|CLASS:Wizard|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Wizard]
 SPELLNAME:Thunderwave|TIMES:1|CLASS:Wizard|BOOK:Prepared Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Thunderwave|TIMES:1|CLASS:Wizard|BOOK:Spellbook|SPELLLEVEL:1|SPELLNUMPAGES:1|SOURCE:[TYPE:CLASS|NAME:Wizard]
 
 # Character Description/Bio/History
 CHARACTERBIO:Born to a now unknown set of Gnomish parents. Krurt was always curious about his surroundings and the things he saw. He would always be observing and tinkering with his toys, typically breaking them. At age 8, he was brought along with his father to learn how to hunt and provide for himself in the future. On their trips, Krurt's father would blindfold him before bringing him out into the forest, to restrict his access to the dangerous parts of the forest. He learned lots about survival from his father. On one such expedition, at age 12, his father simply disappeared whilst Krurt was observing a curious little mushroom. Krurt became lost in the woods that appeared to close in on him. Krurt spent half a moon in the forest all alone trying to find his way back home to his parents and family. He began to give up on his search for his home, and started to get angry at life itself, taking it out the all the little things he once adored, stomping flowers and mushrooms, before eventually crying himself to sleep. While he slept, something crept up on him, and in a fit of rage, he woke up and shot fire from his fingers, igniting all the trees around him. Scared, he ran as fast as possible away from that place, towards a stream he had found a few days earlier, to protect him from the blaze. Upon arriving, he saw that his once brown hair had began to lose its color, and his eyes had changed from green to purple. Paniced and exhausted, he set up a small camp near the stream, hoping that everything that just happened was just a dream. This was not the case. Thinking more rationally on the following day, he began to try to shoot fire again, but to no avail. After about a week, he stumbled across a lone goblin scavaging the nearby grove. Once again hoping to find his home, he desperately ran towards the strange man, begging him for his help in Gnomish. The Goblin, taking a small amount of pity on the crying child at his feet, hearing only the words "help" and "home," brought the child into his care, and brought him back to his home. After feeding and taking care of the small Gnomish child for a few days, he began to teach the child how to speak Goblin, so that they can commune with one another. A few months passed, and Krurt began to speak Goblin, and learned how to better take care of himself and hunt animals for food. The Goblin, deciding that he taught the child enough that he could make a valuable component of their raiding parties, due to his small size, introduced the child to his tribe. The tribe taunted and mocked the small child, including the old Goblin. The tribe allowed the child to stay with them, as long as Krurt could provide for himself. Krurt was given a small room to himself, and was no longer allowed in the older Goblin's house, as he had to prove himself to the tribe. An outcast for sure, Krurt managed to prove himself in the following years, though he was heavily discriminated against. Years passed, and Krurt soon forgot most of his native tongue, only able to speak in broken sentances, and repeating the things he heard. He learned bits and pieces of Common (and some pieces of Gnomish) from the Goblin raiding parties, and from the occasional prostitute. He became hardened and protective of the things he had from the many years spent with the tribe, learning small bits of magic from books he had taken, trying to figure out what had happened long ago. At age 18, on one of his trips through the woods, he found a strange looking shiny rock, and decided to take it with him. Once back in his room, he tried to discern what the rock was, and whether or not it was valuable, hiding it from the other thieving goblins. Tinkering with the rock to see what it was made from, he somehow managed to crack the rock. He had never cracked a rock before, but to keep from breaking it further, he placed it back into its hiding place and continued with his day. The next morning, he awoke to a shock when he opened his hiding place only to find tiny shattered pieces of the rock. He then searched everywhere to see if the thief was still hiding nearby. But there was no thief. There was this strange looking scaly child. Remembering how both his father and the older Goblin abandoned him, he took the child into his own care and raised it as his own. As the child quickly grew in the first year, he tried to teach her of the things he knew, like how to hunt and provide for herself, he noticed she had this strange affinity for just eating the rabbits she had just killed then and there. He soon learned from his books that she was in fact a dragonborn, and decided to give her a fitting name other than just "girl." Trying to find the perfect name, based on the naming traditions of the great dragons of the past, he named her "Bumrat, Eater of Bunnies." As she grew even further, he taught her the basics of magic and of the other languages he knew, including that of Draconic, as he hoped she would make a great name for herself. He was proud of his daughter and her abilities. As she got older, she decided to go out in search of how to bring back the one she followed, and being the protective father he was, Krurt followed behind her, supporting her all along the way.
 CHARACTERDESC:Slighty shorter and skinnier than the average gnome, though don't tell him that. A side effect of his upbringing, is that his skin has become a slightly more green-ish olive. While his other features maintain a constant look of someone who has had to fight goblins for everything he has, his eyes shine a dazzling purple, possibly marking the touch of magic he has been given. His hair has been drained of all color, making it a brilliant white, though it definitely needs some care.&nl;&nl;Missing ring finger on left hand.
-CHARACTERCOMP:
+CHARACTERCOMP:Bumrat, Eater of Bunnies -- My daughter.
 CHARACTERASSET:
 CHARACTERMAGIC:
 CHARACTERDMNOTES:
@@ -248,7 +275,7 @@ KIT:Scholar's Pack
 # Character Master/Follower
 
 # Character Notes Tab
-NOTE:Profeciencies|ID:1|PARENTID:-1|VALUE:Arcana, Athletics, Medicine, Survival
+NOTE:Notes|ID:1|PARENTID:-1|VALUE:-Double Persuasion Prof.&nl;-I have a keep somewhere that is over run with monsters (Throne Card)
 
 # Age Set Selections
 AGESET:1:0:0:0:0:0:0:0:0:0
