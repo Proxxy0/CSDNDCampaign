@@ -1,0 +1,218 @@
+PCGVERSION:2.0
+
+# System Information
+CAMPAIGN:5e - Unearthed Arcana - Barbarian and Monk|CAMPAIGN:5e - Homebrew Support|CAMPAIGN:5e - Xanathar's Guide To Everything|CAMPAIGN:5e - Monster Manual|CAMPAIGN:5e - Player's Handbook
+VERSION:6.08.00 RC7
+ROLLMETHOD:0|EXPRESSION:0
+PURCHASEPOINTS:N
+CHARACTERTYPE:PC
+PREVIEWSHEET:Standard.htm.ftl
+POOLPOINTS:0
+POOLPOINTSAVAIL:-1
+GAMEMODE:5e
+TABLABEL:0
+AUTOSPELLS:Y
+USEHIGHERKNOWN:N
+USEHIGHERPREPPED:N
+LOADCOMPANIONS:N
+USETEMPMODS:Y
+AUTOSORTGEAR:Y
+SKILLSOUTPUTORDER:0
+SKILLFILTER:2
+IGNORECOST:N
+ALLOWDEBT:N
+AUTORESIZEGEAR:Y
+
+# Character Bio
+CHARACTERNAME:GnoJo
+TABNAME:
+PLAYERNAME:Declan Worley
+HEIGHT:43
+WEIGHT:60
+AGE:0
+GENDER:Male
+HANDED:Right
+SKINCOLOR:Pale
+EYECOLOR:Blue
+HAIRCOLOR:Black/Blue
+HAIRSTYLE:Hat
+LOCATION:
+CITY:
+BIRTHDAY:
+BIRTHPLACE:
+PERSONALITYTRAIT1:
+PERSONALITYTRAIT2:
+SPEECHPATTERN:
+PHOBIAS:
+INTERESTS:
+CATCHPHRASE:Watashi, anata wa segatakai
+PORTRAIT:C&colon;\Users\worley\AppData\Local\PCGen\6.08.00RC7\6.08.00RC7\characters\CS Campaign\images\gnojo2.png
+PORTRAITTHUMBNAILRECT:0,0,634,634
+
+# Character Attributes
+STAT:STR|SCORE:10
+STAT:DEX|SCORE:10
+STAT:CON|SCORE:13
+STAT:INT|SCORE:10
+STAT:WIS|SCORE:15
+STAT:CHA|SCORE:14
+ALIGN:NG
+RACE:Gnome
+
+# Character Class(es)
+CLASS:Monk|LEVEL:3|SKILLPOOL:0|SPELLBASE:None|CANCASTPERDAY:
+CLASSABILITIESLEVEL:Monk=1|HITPOINTS:8|SKILLSGAINED:0|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Monk=2|HITPOINTS:8|SKILLSGAINED:0|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Monk=3|HITPOINTS:8|SKILLSGAINED:0|SKILLSREMAINING:0
+
+# Character Experience
+EXPERIENCE:900
+EXPERIENCETABLE:Default
+
+# Character Templates
+TEMPLATESAPPLIED:[NAME:First Level|CHOSENTEMPLATE:[NAME:Monk]]
+TEMPLATESAPPLIED:[NAME:Subrace ~ Rock]
+TEMPLATESAPPLIED:[NAME:Monk]
+TEMPLATESAPPLIED:[NAME:Background Equipment ~ Soldier]
+TEMPLATESAPPLIED:[NAME:Starting Equipment ~ Monk|CHOSENTEMPLATE:[NAME:Any Simple Weapon]|CHOSENTEMPLATE:[NAME:Explorer's Pack]]
+TEMPLATESAPPLIED:[NAME:Any Simple Weapon|CHOSENTEMPLATE:[NAME:Crossbow (Light)]]
+TEMPLATESAPPLIED:[NAME:Crossbow (Light)]
+TEMPLATESAPPLIED:[NAME:Explorer's Pack]
+
+# Character Region
+REGION:None
+
+# Character Skills
+SKILL:Acrobatics|OUTPUTORDER:1|
+SKILL:Animal Handling|OUTPUTORDER:2|
+SKILL:Arcana|OUTPUTORDER:3|
+SKILL:Athletics|OUTPUTORDER:4|
+SKILL:Deception|OUTPUTORDER:5|
+SKILL:History|OUTPUTORDER:6|
+SKILL:Insight|OUTPUTORDER:7|
+SKILL:Intimidation|OUTPUTORDER:8|
+SKILL:Investigation|OUTPUTORDER:9|
+SKILL:Medicine|OUTPUTORDER:10|
+SKILL:Nature|OUTPUTORDER:11|
+SKILL:Perception|OUTPUTORDER:12|
+SKILL:Performance|OUTPUTORDER:13|
+SKILL:Persuasion|OUTPUTORDER:14|
+SKILL:Religion|OUTPUTORDER:15|
+SKILL:Sleight of Hand|OUTPUTORDER:16|
+SKILL:Stealth|OUTPUTORDER:17|
+SKILL:Survival|OUTPUTORDER:18|
+
+# Character Languages
+LANGUAGE:Common|LANGUAGE:Gnomish
+
+# Character Feats
+FEATPOOL:0.0
+
+# Character Abilities
+ABILITY:Armor Class Method|TYPE:NORMAL|CATEGORY:Special Ability|KEY:AC Tracker ~ Monk|TYPE:AC_Tracker.AC_Tracker_Choice.AC_Tracker_SelectionMade
+USERPOOL:Armor Class Method|POOLPOINTS:0.0
+ABILITY:Background|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Background ~ Soldier|TYPE:Background.Background Selection.SpecialQuality|DESC:Equipment&colon; An insignia of rank, a trophy taken from a fallen enemy (a dagger, broken blade, or piece of a banner), a set of bone dice or deck of cards, a set of common clothes, and a belt pouch containing 10 gp|DESC:Gain Athletics &amp;amp; Intimidation as class skills.
+USERPOOL:Background|POOLPOINTS:0.0
+ABILITY:Background / Bond|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Soldier Bond ~ 6|TYPE:SpecialQuality.Soldier Bond.Bond|DESC:I fight for those who cannot fight for themselves.
+USERPOOL:Background / Bond|POOLPOINTS:0.0
+ABILITY:Background / Flaw|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Soldier Flaw ~ 1|TYPE:SpecialQuality.Soldier Flaw.Flaw|DESC:The monstrous enemy we faced in battle still leaves me quivering with fear.
+USERPOOL:Background / Flaw|POOLPOINTS:0.0
+ABILITY:Background / Ideal|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Soldier Ideal ~ 1|TYPE:SpecialQuality.Soldier Ideal.Ideal|DESC:Greater Good. Our lot is to lay down our lives in defense of others. (Good)
+USERPOOL:Background / Ideal|POOLPOINTS:0.0
+ABILITY:Background / Personality Trait|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Soldier Personality Trait ~ 5|TYPE:SpecialQuality.Soldier Personality Trait.Personality Trait|DESC:I can stare down a hell hound without flinching.
+ABILITY:Background / Personality Trait|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Soldier Personality Trait ~ 8|TYPE:SpecialQuality.Soldier Personality Trait.Personality Trait|DESC:I face problems head-on. A simple, direct solution is the best path to success.
+USERPOOL:Background / Personality Trait|POOLPOINTS:0.0
+ABILITY:Gaming Set Proficiency|TYPE:NORMAL|CATEGORY:Internal|KEY:Tool Proficiency ~ Dragonchess Set|APPLIEDTO:|TYPE:Tool Proficiency.Tool Proficiency Gaming Set
+USERPOOL:Gaming Set Proficiency|POOLPOINTS:0.0
+ABILITY:Gnome Subrace|TYPE:NORMAL|CATEGORY:Internal|KEY:Gnome Subrace ~ Rock|TYPE:GnomeSubrace
+USERPOOL:Gnome Subrace|POOLPOINTS:0.0
+ABILITY:Monastic Tradition|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Monastic Tradition ~ Way of the Astral Self|TYPE:Monk Class Feature.SpecialQuality.Class Feature.Monastic Tradition|DESC:Monks of the Way of the Astral Self have an internal struggle with their ki. They see their mystical energy as a representation of their true form, an astral self. This form has the capacity to be a force of good or destruction, with some monasteries training students to either temper their nature or embrace their impulses.
+USERPOOL:Monastic Tradition|POOLPOINTS:0.0
+ABILITY:Monk Skill|TYPE:NORMAL|CATEGORY:Skill|KEY:Acrobatics|TYPE:Skill Proficiency.Dexterity
+ABILITY:Monk Skill|TYPE:NORMAL|CATEGORY:Skill|KEY:Insight|TYPE:Skill Proficiency.Wisdom
+USERPOOL:Monk Skill|POOLPOINTS:0.0
+ABILITY:Monk Tool Proficiency|TYPE:NORMAL|CATEGORY:Internal|KEY:Tool Proficiency ~ Cartographer's Tools|APPLIEDTO:|TYPE:Tool Proficiency.Tool Proficiency Artisan's Tools
+USERPOOL:Monk Tool Proficiency|POOLPOINTS:0.0
+ABILITY:Soldier Specialty|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Soldier Specialty ~ Custom|APPLIEDTO:Marine Biologist|TYPE:SpecialQuality.Soldier Specialty|DESC:%1&pipe;%LIST
+USERPOOL:Soldier Specialty|POOLPOINTS:0.0
+ABILITY:Starting Equipment|TYPE:NORMAL|CATEGORY:Internal|KEY:Starting Equipment|TYPE:Starting Equipment|DESC:Add this once the character for first level is finished. As the selections will be based upon the current Proficiencies. Also, this will only trigger for the initial first level character.
+USERPOOL:Starting Equipment|POOLPOINTS:0.0
+
+# Character Weapon proficiencies
+WEAPONPROF:[WEAPON:Club|WEAPON:Crossbow (Light)|WEAPON:Dagger|WEAPON:Dart|WEAPON:Greatclub|WEAPON:Handaxe|WEAPON:Javelin|WEAPON:Light Hammer|WEAPON:Mace|WEAPON:Quarterstaff]
+WEAPONPROF:[WEAPON:Shortbow|WEAPON:Shortsword|WEAPON:Sickle|WEAPON:Sling|WEAPON:Spear|WEAPON:Unarmed Strike|WEAPON:Unarmed Strike (Monk)]
+
+# Character Equipment
+MONEY:13.00
+EQUIPNAME:Backpack|OUTPUTORDER:0|COST:2|WT:5.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Backpack|DATA:NAME=Backpack]
+EQUIPNAME:Bedroll|OUTPUTORDER:0|COST:1|WT:7.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Bedroll|DATA:NAME=Bedroll]
+EQUIPNAME:Belt Pouch|OUTPUTORDER:0|COST:0.5|WT:1.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Belt Pouch|DATA:NAME=Belt Pouch]
+EQUIPNAME:Bone Dice|OUTPUTORDER:0|COST:0.1|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Bone Dice|DATA:NAME=Bone Dice]
+EQUIPNAME:Clothes, Common|OUTPUTORDER:0|COST:0.5|WT:3.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Clothes (Common)|DATA:NAME=Clothes, Common$KEY=Clothes (Common)]
+EQUIPNAME:Coin (Gold)|OUTPUTORDER:0|COST:1|WT:0.02|QUANTITY:10.0|NOTE:|CUSTOMIZATION:[BASEITEM:Coin (Gold)|DATA:NAME=Coin (Gold)]
+EQUIPNAME:Crossbow, Light|OUTPUTORDER:0|COST:25|WT:5.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Crossbow (Light)|DATA:NAME=Crossbow, Light$KEY=Crossbow (Light)]
+EQUIPNAME:Dart|OUTPUTORDER:0|COST:0.05|WT:0.25|QUANTITY:10.0|NOTE:|CUSTOMIZATION:[BASEITEM:Dart|DATA:NAME=Dart]
+EQUIPNAME:Enemy Trophy|OUTPUTORDER:0|COST:0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Enemy Trophy|DATA:NAME=Enemy Trophy]
+EQUIPNAME:Insignia of Rank|OUTPUTORDER:0|COST:0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Insignia of Rank|DATA:NAME=Insignia of Rank]
+EQUIPNAME:Mess kit|OUTPUTORDER:0|COST:0.2|WT:1.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Mess kit|DATA:NAME=Mess kit]
+EQUIPNAME:Rations (1 day)|OUTPUTORDER:0|COST:0.5|WT:2.0|QUANTITY:10.0|NOTE:|CUSTOMIZATION:[BASEITEM:Rations (1 day)|DATA:NAME=Rations (1 day)]
+EQUIPNAME:Rope, hempen (50 feet)|OUTPUTORDER:0|COST:1|WT:10.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Rope (Hempen/50)|DATA:NAME=Rope, hempen (50 feet)$KEY=Rope (Hempen/50)]
+EQUIPNAME:Tinderbox|OUTPUTORDER:0|COST:0.5|WT:1.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Tinderbox|DATA:NAME=Tinderbox]
+EQUIPNAME:Torch|OUTPUTORDER:0|COST:0.01|WT:1.0|QUANTITY:10.0|NOTE:|CUSTOMIZATION:[BASEITEM:Torch|DATA:NAME=Torch]
+EQUIPNAME:Waterskin|OUTPUTORDER:0|COST:0.2|WT:5.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Waterskin|DATA:NAME=Waterskin]
+EQUIPSET:Default Set|ID:0.1|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.1|VALUE:Enemy Trophy|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.10|VALUE:Bedroll|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.11|VALUE:Mess kit|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.12|VALUE:Tinderbox|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.13|VALUE:Torch|QUANTITY:10.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.14|VALUE:Rations (1 day)|QUANTITY:10.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.15|VALUE:Waterskin|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.16|VALUE:Rope, hempen (50 feet)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.2|VALUE:Insignia of Rank|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.3|VALUE:Clothes, Common|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.4|VALUE:Belt Pouch|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.5|VALUE:Coin (Gold)|QUANTITY:10.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.6|VALUE:Bone Dice|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.7|VALUE:Dart|QUANTITY:10.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.8|VALUE:Crossbow, Light|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.9|VALUE:Backpack|QUANTITY:1.0|USETEMPMODS:Y
+CALCEQUIPSET:0.1
+
+# Temporary Bonuses
+
+# EquipSet Temp Bonuses
+
+# Character Deity/Domain
+DEITY:Pelor|DEITYDOMAINS:[DOMAIN:FORGE DOMAIN|DOMAIN:GRAVE DOMAIN|DOMAIN:Knowledge Domain|DOMAIN:Life Domain|DOMAIN:Light Domain|DOMAIN:Nature Domain|DOMAIN:Tempest Domain|DOMAIN:Trickery Domain|DOMAIN:War Domain]|ALIGNALLOW:|DESC:Life, Light Sun|DEITYFAVWEAP:[]|DEITYALIGN:NG
+
+# Character Spells Information
+
+# Character Description/Bio/History
+CHARACTERBIO:John wick John wick John wick John wick John wick John wick John wick John Wick Jownh wicks Jownwf sowicks gjvw John wick John wick John wick Jown John wik Jon Snowvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+CHARACTERDESC:
+CHARACTERCOMP:
+CHARACTERASSET:
+CHARACTERMAGIC:
+CHARACTERDMNOTES:
+
+# Kits
+KIT:Soldier Background
+KIT:Bone Dice
+KIT:Starting gold ~ Monk
+KIT:10 darts
+KIT:Crossbow (Light)
+KIT:Explorer's Pack
+
+# Character Master/Follower
+
+# Character Notes Tab
+
+# Age Set Selections
+AGESET:0:0:0:0:0:0:0:0:0:0
+
+# Campaign History
+
+# Suppressed Biography Fields
+SUPPRESSBIOFIELDS:
+
